@@ -4,6 +4,21 @@
   padding: 60px 8%;
 }
 
+body,
+html {
+  height: 100%;
+}
+
+.parallax {
+  height: 100%;
+  background-image: url("../images/wildertv.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
 @media only screen and (min-width: 992px) {
   .container {
     padding: 3em 12%;
@@ -57,7 +72,17 @@
 }
 
 
+/* Buttons
+   ========================================================================== */
 
+button {
+  background-color: #9DC531;
+  color: #FFF;
+  border-radius: 0.5em;
+  border-style: none;
+  padding: 0.4em 1.2em;
+
+}
 
 
 /* Typography
