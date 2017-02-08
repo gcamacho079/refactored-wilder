@@ -1,0 +1,44 @@
+html,
+body {
+  height: 100%;
+}
+
+#main {
+  height: 70%;
+  background-image: url("../images/wildertv.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position: fixed;
+}
+
+/********************************************************
+ Typography
+********************************************************/
+
+body {
+  text-align: center;
+}
+
+/********************************************************
+ Color Palette
+********************************************************/
+
+.cta {
+  background-color: #F21B3F;
+  color: #FFF;
+}
+
+/********************************************************
+ Buttons
+********************************************************/
+
+.cta {
+  border-style: none;
+  border-radius: 1em;
+  padding: 0.5em 4em;
+}
+
+.cta:focus {
+  outline: none;
+}
