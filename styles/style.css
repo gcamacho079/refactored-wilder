@@ -4,7 +4,7 @@ body {
 }
 
 #main {
-  height: 70%;
+  height: 80%;
   background-image: url("../images/wildertv.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -20,9 +20,20 @@ body {
   text-align: center;
 }
 
+h1 {
+  margin-top: 0;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.3em;
+  font-size: 1.3em;
+}
+
 /********************************************************
  Color Palette
 ********************************************************/
+
 
 .cta {
   background-color: #F21B3F;
@@ -36,9 +47,17 @@ body {
 .cta {
   border-style: none;
   border-radius: 1em;
-  padding: 0.5em 4em;
+  padding: 0.75em 4em;
 }
 
 .cta:focus {
   outline: none;
+}
+
+/********************************************************
+ Icons
+********************************************************/
+
+.fa {
+  margin: 0 0.5em;
 }
