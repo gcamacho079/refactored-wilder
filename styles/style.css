@@ -1,16 +1,48 @@
+/********************************************************
+ Basic Layout
+********************************************************/
+
 html,
 body {
   height: 100%;
 }
 
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 650px;
+}
+
 #main {
-  height: 80%;
+  position: relative;
+  height: 75%;
   background-image: url("../images/wildertv.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-position: fixed;
 }
+
+@media screen and (min-width: 600px) {
+  #main {
+    height: 68%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #main {
+    height: 65%;
+  }
+}
+
+span {
+  margin-top: 3em;
+  padding: 0.2em 0.6em;
+}
+
+/********************************************************
+ Navigation
+********************************************************/
 
 /********************************************************
  Typography
@@ -20,20 +52,38 @@ body {
   text-align: center;
 }
 
-h1 {
-  margin-top: 0;
+h1,
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
 }
 
-button {
+#main h1 {
+  margin-top: 0;
+  text-align: left;
+}
+
+.cta {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.3em;
   font-size: 1.3em;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 /********************************************************
  Color Palette
 ********************************************************/
 
+span {
+  background-color: #FFF;
+}
+
+#main h1 {
+  color: #F21B3F;
+}
 
 .cta {
   background-color: #F21B3F;
@@ -48,6 +98,7 @@ button {
   border-style: none;
   border-radius: 1em;
   padding: 0.75em 4em;
+
 }
 
 .cta:focus {
