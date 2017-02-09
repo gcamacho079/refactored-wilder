@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <title>The Wilder</title>
+    <title><?php echo $pageTitle ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,22 +15,23 @@
   </head>
 
   <body>
-    <header>
 
-      <nav>
-        <ul>
-          <li><a href="index.php">Home</a></li>
-          <li>Press Kit</li>
-          <li>Music</li>
-          <li><a href="contact.php">Contact</a></li>
-        </ul>
-      </nav>
-  </header>
+    <nav>
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li>Press Kit</li>
+        <li>Music</li>
+        <li><a href="contact.php">Contact</a></li>
+      </ul>
+    </nav>
+
     <section id="main">
       <div class="wrapper">
         <h1><span>We are</span></h1>
         <h1><span>The Wilder</span></h1>
 
-        <button class="cta"><i class="fa fa-play" aria-hidden="true"></i>LISTEN</button>
+        <div id="button-holder">
+          <button class="cta"><i class="fa fa-play" aria-hidden="true"></i>LISTEN</button>
+        </div>
       </div>
     </section>

@@ -1,4 +1,7 @@
-<?php include("inc/header.php"); ?>
+<?php
+
+$pageTitle = "Contact";
+include("inc/header.php"); ?>
 
 
     <section>
