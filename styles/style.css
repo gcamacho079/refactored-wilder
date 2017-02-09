@@ -14,7 +14,6 @@ body {
 }
 
 #main {
-  position: relative;
   height: 75%;
   background-image: url("../images/wildertv.jpg");
   background-repeat: no-repeat;
@@ -43,6 +42,22 @@ span {
 /********************************************************
  Navigation
 ********************************************************/
+
+#logo {
+  max-width: 200px;
+  display: inline;
+}
+
+header {
+  background: #0C0C0C;
+}
+
+ul {
+  position:fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 /********************************************************
  Typography
@@ -97,7 +112,7 @@ span {
 .cta {
   border-style: none;
   border-radius: 1em;
-  padding: 0.75em 4em;
+  padding: 0.6em 3em;
 
 }
 

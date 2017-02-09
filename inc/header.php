@@ -15,38 +15,22 @@
   </head>
 
   <body>
+    <header>
 
+      <nav>
+        <ul>
+          <li><a href="index.php">Home</a></li>
+          <li>Press Kit</li>
+          <li>Music</li>
+          <li><a href="contact.php">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
     <section id="main">
       <div class="wrapper">
-        <h1><span>Contact</span></h1>
+        <h1><span>We are</span></h1>
+        <h1><span>The Wilder</span></h1>
 
+        <button class="cta"><i class="fa fa-play" aria-hidden="true"></i>LISTEN</button>
       </div>
     </section>
-
-
-
-    <section>
-      <h2>Contact Us</h2>
-      <form>
-        <input type="text" placeholder="Write your message here!" required> <!-- Write JavaScript/jQuery requirement for Safari -->
-
-        <button type="submit">
-          <strong>Send</strong>
-        </button>
-      </form>
-
-    </section>
-
-
-    <footer>
-
-      <p>&copy; 2017 The Wilder</p>
-      <p>Site design by Guadalupe Camacho</p>
-    </footer>
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-
-  </body>
-</html>
