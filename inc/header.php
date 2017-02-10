@@ -26,12 +26,7 @@
     </nav>
 
     <section id="main">
-      <div class="wrapper">
-        <h1><span>We are</span></h1>
-        <h1><span>The Wilder</span></h1>
 
-        <div id="button-holder">
-          <button class="cta"><i class="fa fa-play" aria-hidden="true"></i>LISTEN</button>
-        </div>
-      </div>
+        <button class="cta"><i class="fa fa-play" aria-hidden="true"></i>LISTEN</button>
+
     </section>
