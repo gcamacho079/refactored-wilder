@@ -11,10 +11,15 @@ body {
   text-align: center;
 }
 
+nav {
+  position: fixed;
+  z-index: 1;
+}
+
 .wrapper {
   margin: 0 auto;
   width: 90%;
-  max-width: 650px;
+  max-width: 700px;
 }
 
 #main {
@@ -53,7 +58,6 @@ body {
 }
 
 ul {
-  position:fixed;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -76,7 +80,8 @@ h3 {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Muli', sans-serif;
+  font-size: 1.1em;
 }
 
 /********************************************************
@@ -136,4 +141,13 @@ button,
 
 .social:hover {
   color: #F21B3F;
+}
+
+/********************************************************
+ Images
+********************************************************/
+
+#cd-pic {
+  width: 90%;
+  max-width: 300px;
 }

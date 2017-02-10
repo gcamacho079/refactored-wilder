@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Montserrat:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,700|Montserrat:400,700" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 
   </head>
@@ -25,8 +25,10 @@
       </ul>
     </nav>
 
-    <section id="main">
+    <div id="main">
 
         <button class="cta"><i class="fa fa-play" aria-hidden="true"></i>LISTEN</button>
 
-    </section>
+    </div>
+
+    <div class="wrapper">

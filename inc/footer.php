@@ -1,3 +1,5 @@
+</div>
+
 <footer>
 
   <i class="fa fa-facebook-official social" aria-hidden="true"></i>
