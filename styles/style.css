@@ -80,24 +80,11 @@ p {
 }
 
 /********************************************************
- Color Palette
-********************************************************/
-
-.cta {
-  background-color: #F21B3F;
-  color: #FFF;
-}
-
-.social:hover {
-  color: #F21B3F;
-}
-
-/********************************************************
  Buttons & Icons
 ********************************************************/
 
 .cta {
-  border-style: none;
+  border-top: none;
   border-radius: 0.3em;
   padding: 0.6em 2em;
   position: absolute;
@@ -125,4 +112,28 @@ button,
   transition-duration: 0.3s;
   -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
+}
+
+/********************************************************
+ Color Palette
+********************************************************/
+
+.cta {
+  background-color: #F21B3F;
+  color: #FFF;
+  border-bottom: #CE0C2C 3px solid;
+  border-left: #CE0C2C 1px solid;
+  border-right: #CE0C2C 1px solid;
+
+}
+
+.cta:hover {
+  background-color: #f33353;
+  border-bottom: #F21B3F 3px solid;
+  border-left: #F21B3F 1px solid;
+  border-right: #F21B3F 1px solid;
+}
+
+.social:hover {
+  color: #F21B3F;
 }
