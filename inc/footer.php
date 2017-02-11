@@ -9,6 +9,7 @@
 
   <p>&copy; <?php echo date("Y"); ?> The Wilder</p>
   <p>Site design by Guadalupe Camacho</p>
+  
 </footer>
 
 <!-- jQuery library -->
