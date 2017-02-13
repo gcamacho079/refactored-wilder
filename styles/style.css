@@ -27,11 +27,6 @@ body {
   background-attachment: fixed;
 }
 
-
-/********************************************************
- Media Queries
-********************************************************/
-
 @media screen and (min-width: 600px) {
   #main {
     height: 68%;
@@ -44,30 +39,85 @@ body {
   }
 }
 
+.highlight {
+  padding: 0 10px 10px 10px;
+}
 /********************************************************
- Navigation
+ Navigation: Mobile
 ********************************************************/
 header {
   position: fixed;
   width: 100%;
+  height: 60px;
   float: left;
   z-index: 1;
   background-color: #222;
 }
 
-nav {
-
+#logo {
+  display: block;
+  margin: 5px;
+  width: 200px;
+  height: 50px;
+  float: left;
+  background-image: url("../images/wilder-web-logo.png");
+  z-index: 1;
 }
 
-#logo {
-  padding: 0.5em;
-  max-width: 250px;
+#menu-icon {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url("../images/menu-icon-19350.png");
+}
+
+nav {
+  float: right;
+  margin: 12px;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+nav ul {
+  display: none;
+}
+
+nav a,
+nav a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/********************************************************
+ Navigation: Wide Screens
+********************************************************/
+
+@media screen and (min-width: 640px) {
+  #menu-icon {
+    display: none;
+  }
+
+  nav {
+    margin-top: 22px;
+  }
+
+  nav ul {
+    display: inline-block;
+  }
+
+  nav li {
+    display: inline-block;
+    padding: 0 10px;
+    float: left;
+  }
 }
 
 /********************************************************
@@ -144,6 +194,10 @@ button,
   border-bottom: #F21B3F 3px solid;
   border-left: #F21B3F 1px solid;
   border-right: #F21B3F 1px solid;
+}
+
+.highlight {
+  background-color: #EEE;
 }
 
 .social:hover {

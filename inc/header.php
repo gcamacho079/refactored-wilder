@@ -13,13 +13,12 @@
 
   <body>
     <header>
-      <img id="logo" src="./images/wilder-web-logo.png">
-
+      <a href="#" id="logo"></a>
 
       <nav id="primary-nav">
+        <a href="#" id="menu-icon"></a>
         <ul>
           <li><a href="index.php">Home</a></li>
-          <li>Press Kit</li>
           <li><a href="music.php">Music</a></li>
           <li><a href="contact.php">Contact</a></li>
         </ul>

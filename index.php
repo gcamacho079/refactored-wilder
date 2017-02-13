@@ -5,9 +5,10 @@
       <p>Fans have described us as <em>The Black Keys on speed.</em></p>
     </section>
 
-    <section>
-      <h2>Album Out Now</h2>
+    <section class="highlight">
+      <h2>EP Out Now</h2>
       <img id="cd-pic" alt="Picture of The Wilder EP cover" src="images/wilder-ep-cover.png">
+
     </section>
 
 
